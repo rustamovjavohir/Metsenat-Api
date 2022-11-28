@@ -3,6 +3,7 @@ from django.contrib import admin
 from apps.accounts.models import Account
 
 
+
 class AccountAdmin(admin.ModelAdmin):
     search_fields = ['username']
     search_help_text = 'search username'
